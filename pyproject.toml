@@ -1,0 +1,12 @@
+[project]
+name = "ai_remoney"
+version = "0.1.0"
+description = "AI 事件驱动投资情报系统 — 预判金融大鳄的想法"
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
